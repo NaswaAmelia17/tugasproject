@@ -1,4 +1,4 @@
-package com.example.funfood;
+package com.example.jualin;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -87,12 +87,12 @@ public class Dashboard extends AppCompatActivity {
     // Inisialisasi daftar makanan
     private void initFoodList() {
         foodList.clear();
-        foodList.add(new MenuItem("Seblak Seafood", 18000, R.drawable.pict1));
-        foodList.add(new MenuItem("Ayam Geprek", 15000, R.drawable.pict2));
-        foodList.add(new MenuItem("Es Pisang Ijo", 13000, R.drawable.pict3));
-        foodList.add(new MenuItem("Wonton", 14000, R.drawable.pict4));
-        foodList.add(new MenuItem("Ikan Bakar", 20000, R.drawable.pict5));
-        foodList.add(new MenuItem("Soto Ayam", 17000, R.drawable.pict6));
+        foodList.add(new MenuItem("Micellar Water", 45000, R.drawable.pict1));
+        foodList.add(new MenuItem("Serum Wajah", 35000, R.drawable.pict2));
+        foodList.add(new MenuItem("Moisturizer", 38000, R.drawable.pict3));
+        foodList.add(new MenuItem("Hand Cream", 35000, R.drawable.pict4));
+        foodList.add(new MenuItem("Foam Wash", 20000, R.drawable.pict5));
+        foodList.add(new MenuItem("Hair Spray", 10000, R.drawable.pict6));
     }
 
     // Filter Makanan Berdasarkan Input Search

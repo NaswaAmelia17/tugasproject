@@ -28,7 +28,7 @@
             android:id="@+id/tv_food_name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Seblak Seafood"
+            android:text="Micellar Water"
             android:textSize="18sp"
             android:textStyle="bold"
             app:layout_constraintTop_toBottomOf="@id/iv_food"
@@ -41,7 +41,7 @@
             android:id="@+id/tv_food_price"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Rp. 15.000"
+            android:text="Rp. 45.000"
             android:textSize="14sp"
             android:textColor="@android:color/darker_gray"
             app:layout_constraintTop_toBottomOf="@id/tv_food_name"
@@ -54,14 +54,13 @@
             android:id="@+id/btn_buy"
             android:layout_width="0dp"
             android:layout_height="48dp"
+            android:layout_marginTop="12dp"
+            android:backgroundTint="#EF802E"
             android:text="Buy"
             android:textColor="@android:color/white"
-            android:backgroundTint="#1A711A"
-            app:layout_constraintTop_toBottomOf="@id/tv_food_price"
-            app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            android:layout_marginTop="12dp"
-            android:layout_marginBottom="29dp"/>
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_food_price" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 </androidx.cardview.widget.CardView>

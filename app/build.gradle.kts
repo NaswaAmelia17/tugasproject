@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.funfood"
+    namespace = "com.example.jualin"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.example.funfood"
+        applicationId = "com.example.jualin"
         minSdk = 29
         targetSdk = 35
         versionCode = 1

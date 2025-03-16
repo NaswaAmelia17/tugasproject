@@ -1,4 +1,4 @@
-package com.example.funfood;
+package com.example.jualin;
 
 import android.app.Activity;
 import android.content.Intent;

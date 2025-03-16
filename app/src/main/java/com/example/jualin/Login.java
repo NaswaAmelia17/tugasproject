@@ -1,4 +1,4 @@
-package com.example.funfood;
+package com.example.jualin;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -8,7 +8,6 @@ import android.content.Intent;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
-import android.app.AlertDialog;
 
 public class Login extends AppCompatActivity {
 
